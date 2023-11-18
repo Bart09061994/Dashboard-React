@@ -1,0 +1,19 @@
+.content {
+    margin-left: 20%;
+    /* Larghezza della sidebar sinistra */
+    margin-right: 20%;
+    /* Larghezza della sidebar destra */
+    padding-top: 5%;
+}
+
+/* Media query per adattare il layout su schermi più piccoli */
+@media (max-width: 768px) {
+    .content {
+        margin-left: 0;
+        /* Rimuovi il margine sinistro */
+        margin-right: 0;
+        /* Rimuovi il margine destro */
+        margin-top: 0;
+
+    }
+}

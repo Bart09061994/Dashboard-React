@@ -1,0 +1,19 @@
+.sidebar-left {
+    width: 20%;
+    /* Larghezza iniziale, può essere modificata secondo le tue preferenze */
+    min-width: 200px;
+    /* Larghezza minima */
+    max-width: 300px;
+    /* Larghezza massima */
+    height: 100vh;
+    /* Altezza a tutta altezza dello schermo */
+    position: fixed;
+    /* Fissa la sidebar nella posizione */
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    overflow-y: auto;
+    /* Scroll se il contenuto è troppo lungo */
+    z-index: 2;
+    /* Z-index più alto rispetto al contenuto */
+}

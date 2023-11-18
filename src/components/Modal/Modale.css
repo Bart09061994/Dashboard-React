@@ -1,0 +1,50 @@
+/* Imposta la larghezza massima della modale su schermi piccoli */
+.modal-responsive {
+    max-width: 100%;
+}
+
+/* Riduci la dimensione del titolo della modale su schermi piccoli */
+.modal-title {
+    font-size: 1.5rem;
+}
+
+/* Riduci la dimensione dei pulsanti Chiudi e Salva su schermi piccoli */
+.modal-footer .btn-secondary,
+.modal-footer .btn-primary {
+    font-size: 0.875rem;
+}
+
+/* Imposta la larghezza massima delle card degli store su schermi piccoli */
+.card-responsive {
+    max-width: 100%;
+}
+
+/* Riduci la dimensione del titolo della card su schermi piccoli */
+.card-title {
+    font-size: 1.25rem;
+}
+
+/* Riduci la dimensione del testo della descrizione su schermi piccoli */
+.card-text {
+    font-size: 0.875rem;
+}
+
+/* Imposta la larghezza massima delle immagini delle card su schermi piccoli */
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Riduci la dimensione dei pulsanti su schermi piccoli */
+.card .btn {
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Imposta una larghezza massima per il testo dei pulsanti */
+.card .btn a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
